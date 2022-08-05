@@ -47,6 +47,34 @@ body {
 }
 
 .btn:hover {
-  cursor: row-resize;
+  cursor: pointer;
   background-color: rgb(129, 239, 237);
+}
+
+.result {
+  text-align: center;
+  font-weight: 3rem;
+  font-size: 3rem;
+}
+
+.reset {
+  text-align: center;
+  margin: 10px 0;
+}
+
+#reset {
+  border: 1px solid rgba(227, 18, 196, 0.815);
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+  margin: 7px 0;
+  transition: all 0.8s ease-in-out;
+}
+
+#reset:hover {
+  color: rgb(rgb(156, 165, 186), green, blue);
+  background-color: wheat;
 }
