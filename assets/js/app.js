@@ -1,5 +1,5 @@
 let celdas =["","","","","","","","",""]
-let jugadorActual ="🐱‍👤"
+let jugadorActual ="👽"
 let resultado=document.querySelector(".result")
 let botones=document.querySelectorAll(".btn")
 
@@ -20,8 +20,9 @@ const triki=(element,i)=>{
     element.value=jugadorActual;
     element.disabled = true;
     celdas[i] = jugadorActual
-    jugadorActual = jugadorActual =="🐱‍👤" ? "🤖" : "🐱‍👤";
+    jugadorActual = jugadorActual =="👽" ? "👻" : "👽";
     resultado.innerHTML= `Player ${jugadorActual} Turn`
+    console.log(celdas)
 }
 
 botones.forEach((boton,indice)=>{
